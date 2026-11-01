@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+streamlit
+pymupdf
+httpx
+pytest
+python-dotenv
+pydantic
