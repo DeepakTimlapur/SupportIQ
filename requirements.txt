@@ -6,3 +6,6 @@ httpx
 pytest
 python-dotenv
 pydantic
+sentence-transformers
+chromadb
+numpy
