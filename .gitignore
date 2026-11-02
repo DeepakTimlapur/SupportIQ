@@ -1,7 +1,34 @@
+﻿# Python
 .venv/
 __pycache__/
-*.pyc
-.env
+*.py[cod]
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime data
+data/chroma_db/
 chroma_db/
 *.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local debugging backups
+app/assistant/generator.before-*.py
+README.before-publish-*.md
+
+# Frontend backups and template files
+frontend/README.md
+frontend/src/*.backup-*
+frontend/src/*.before-*
+frontend/src/*.pre-*
