@@ -99,5 +99,4 @@ The current validated test suite contains 31 passing tests. The React production
 - Retrieval similarity is a ranking score, not a calibrated probability.
 - ChromaDB data is locally persisted and can be rebuilt by indexing the documents.
 
-## License
-Add a license before distributing this project if you intend to make it open source.
+
